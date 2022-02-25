@@ -1,9 +1,17 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  let wordArry = word.split('').reverse().join('');
+  console.log(wordArry)
+  return wordArry === word
 }
-
 /* 
-  Add your pseudocode here
+  Need to check if the reverse word equals the inputted word
+  Need to reverse the input word
+  How to rearrange input string
+  use .reverse to reverse array
+  use .split to turn string into arrays
+  use .join to combine the arrays into a string
+
+
 */
 
 /*
